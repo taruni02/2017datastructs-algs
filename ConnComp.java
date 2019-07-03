@@ -11,7 +11,7 @@ public class ConnComp{
    {
       marked = new boolean[N];
       id = new int[N];
-      Scanner s = new Scanner(new File("digraphp591.txt"));
+      Scanner s = new Scanner(new File("inputfile.txt"));
       arr = new int[N][N];
       for(int x = 0; x<N;x++)
       {
